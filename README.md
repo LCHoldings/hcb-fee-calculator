@@ -30,7 +30,11 @@
 <!-- ABOUT THE PROJECT -->
 ## 📝 About The Project
 
-![Example](https://raw.githubusercontent.com/LCHoldings/hcb-fee-calculator/refs/heads/main/images/image.png)
+<div align="center">
+  <a href="https://github.com/lcholdings/hcb-fee-calculator">
+    <img src="https://raw.githubusercontent.com/LCHoldings/hcb-fee-calculator/refs/heads/main/images/image.png" alt="Logo" style="border-radius: 10px">
+  </a>
+</div>
 
 This projects calculates the (7%) transaction fee for HCB transactions. Mainly to make it easier to donate with covered fees without using HCB's donation form. For example, if you will recieve a check or bank transfer. You can use this to give the donor the exact amount to send to cover the fees.
 

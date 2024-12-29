@@ -2,7 +2,13 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["cachet.dunkirk.sh"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cachet.dunkirk.sh",
+        pathname: "/**",
+      },
+    ],
   },
 };
 
