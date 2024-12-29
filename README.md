@@ -125,6 +125,8 @@ Thanks to the following people for their help and inspiration:
 * [HC High Seas](https://highseas.hackclub.com)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<p align="center" style="">This project is <strong>not</strong> affiliated with HCB</p>
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
