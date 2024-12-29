@@ -18,7 +18,7 @@ import { ThemeToggle } from "@/components/themeToggle";
 import Image from "next/image";
 
 export default function DonationCalculator() {
-  const { theme } = useTheme()
+  const { theme, systemTheme } = useTheme()
 
   const [donationAmount, setDonationAmount] = useState<number | undefined>();
   const [feeCoveredDonation, setFeeCoveredDonation] = useState<number | undefined>();
@@ -35,11 +35,8 @@ export default function DonationCalculator() {
 
   function copyToClipboard(num: number) {
     const convertToTwoDecimal = num.toFixed(2);
-    if (theme === "dark") {
-      notifColor = "hsl(240 11.5% 10.2%)";
-    } else {
-      notifColor = "#f9fafb";
-    }
+      
+    notifColor = (theme === "dark" || (theme === "system" && systemTheme === "dark")) ? "hsl(240 11.5% 10.2%)" : "#f9fafb";
     
     navigator.clipboard.writeText(convertToTwoDecimal);
 
