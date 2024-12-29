@@ -13,7 +13,7 @@
   <p align="center">
     Calculate the donation fee for your HCB transactions, includes blåhaj! (not affiliated with HCB or IKEA)
     <br />
-    <a href="https://lazyllama.xyz">Demo</a>
+    <a href="https://hcb-fee-calculator.netlify.app/">Demo</a>
     ·
     <a href="https://github.com/LCHoldings/hcb-fee-calculator/fork">Fork Project</a>
   </p>
