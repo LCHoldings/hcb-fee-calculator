@@ -17,10 +17,6 @@
 
   <h3 align="center">HCB Donation Fee Calculator</h3>
 
-  <a align="center" href="https://slack.com/oauth/v2/authorize?client_id=2210535565.8113010338339&scope=commands&user_scope=">
-    <img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcSet="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" />
-  </a>
-
   <p align="center">
     Calculate the donation fee for your HCB transactions, includes blåhaj! (not affiliated with HCB or IKEA)
     <br />
